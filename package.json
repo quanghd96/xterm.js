@@ -1,10 +1,10 @@
 {
-  "name": "xterm",
+  "name": "atv-xterm",
   "description": "Full xterm terminal, in your browser",
-  "version": "3.6.0",
+  "version": "1.0.0",
   "main": "lib/public/Terminal.js",
   "types": "typings/xterm.d.ts",
-  "repository": "https://github.com/xtermjs/xterm.js",
+  "repository": "https://github.com/quanghd96/xterm.js",
   "license": "MIT",
   "devDependencies": {
     "@types/chai": "^3.4.34",

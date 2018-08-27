@@ -126,6 +126,9 @@ export class CompositionHelper {
       this._isSendingComposition = false;
       const input = this._textarea.value.substring(this._compositionPosition.start, this._compositionPosition.end);
       this._terminal.handler(input);
+      //Fix bug input mobile utf8
+      this._compositionView.textContent='';
+      this._textarea.value='';
     } else {
       // Make a deep copy of the composition position here as a new compositionstart event may
       // fire before the setTimeout executes.
@@ -159,6 +162,9 @@ export class CompositionHelper {
           }
           this._terminal.handler(input);
         }
+        //Fix bug input mobile utf8
+        this._compositionView.textContent='';
+        this._textarea.value='';
       }, 0);
     }
   }
