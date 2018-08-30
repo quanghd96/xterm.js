@@ -6,7 +6,7 @@
  * WebSocket stream.
  */
 
-import { Terminal } from 'xterm';
+import { Terminal } from 'atv-xterm';
 import { ITerminadoAddonTerminal } from './Interfaces';
 
 /**

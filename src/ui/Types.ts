@@ -3,7 +3,7 @@
  * @license MIT
  */
 
-import { IDisposable } from 'xterm';
+import { IDisposable } from 'atv-xterm';
 
 export interface IMouseZoneManager extends IDisposable {
   add(zone: IMouseZone): void;

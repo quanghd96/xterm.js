@@ -3,7 +3,7 @@
  * @license MIT
  */
 
-import { Terminal } from 'xterm';
+import { Terminal } from 'atv-xterm';
 import { IWinptyCompatAddonTerminal } from './Interfaces';
 
 const CHAR_DATA_CODE_INDEX = 3;

@@ -7,7 +7,7 @@
  * to be stable and consumed by external programs.
  */
 
-declare module 'xterm' {
+declare module 'atv-xterm' {
   /**
    * A string representing text font weight.
    */

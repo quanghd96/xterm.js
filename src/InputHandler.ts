@@ -1038,7 +1038,7 @@ export class InputHandler extends Disposable implements IInputHandler {
     }
 
     if (!collect) {
-      if (this._terminal.is('xterm') || this._terminal.is('rxvt-unicode') || this._terminal.is('screen')) {
+      if (this._terminal.is('atv-xterm') || this._terminal.is('rxvt-unicode') || this._terminal.is('screen')) {
         this._terminal.handler(C0.ESC + '[?1;2c');
       } else if (this._terminal.is('linux')) {
         this._terminal.handler(C0.ESC + '[?6c');
@@ -1047,7 +1047,7 @@ export class InputHandler extends Disposable implements IInputHandler {
       // xterm and urxvt
       // seem to spit this
       // out around ~370 times (?).
-      if (this._terminal.is('xterm')) {
+      if (this._terminal.is('atv-xterm')) {
         this._terminal.handler(C0.ESC + '[>0;276;0c');
       } else if (this._terminal.is('rxvt-unicode')) {
         this._terminal.handler(C0.ESC + '[>85;95;0c');

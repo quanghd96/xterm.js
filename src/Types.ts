@@ -3,7 +3,7 @@
  * @license MIT
  */
 
-import { Terminal as PublicTerminal, ITerminalOptions as IPublicTerminalOptions, IEventEmitter, IDisposable } from 'xterm';
+import { Terminal as PublicTerminal, ITerminalOptions as IPublicTerminalOptions, IEventEmitter, IDisposable } from 'atv-xterm';
 import { IColorSet, IRenderer } from './renderer/Types';
 import { IMouseZoneManager } from './ui/Types';
 import { ICharset } from './core/Types';

@@ -57,7 +57,7 @@ Finally instantiate the `Terminal` object and then call the `open` function with
 The proposed way to load xterm.js is via the ES6 module syntax.
 
 ```javascript
-import { Terminal } from 'xterm';
+import { Terminal } from 'atv-xterm';
 ```
 
 ### API
@@ -92,7 +92,7 @@ There are currently no typings for addons if they are accessed via extending Ter
 Alternatively, you can import addon function and enhance the terminal on demand. This would have better typing support and is friendly to treeshaking. E.g.:
 
 ```typescript
-import { Terminal } from 'xterm';
+import { Terminal } from 'atv-xterm';
 import { fit } from 'xterm/lib/addons/fit/fit';
 const xterm = new Terminal();
 

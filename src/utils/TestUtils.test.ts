@@ -7,7 +7,7 @@ import { IColorSet, IRenderer, IRenderDimensions, IColorManager } from '../rende
 import { LineData, IInputHandlingTerminal, IViewport, ICompositionHelper, ITerminal, IBuffer, IBufferSet, IBrowser, ICharMeasure, ISelectionManager, ITerminalOptions, ICircularList, ILinkifier, IMouseHelper, ILinkMatcherOptions, XtermListener, CharacterJoinerHandler } from '../Types';
 import { Buffer, NULL_CELL_CODE, NULL_CELL_WIDTH, NULL_CELL_CHAR } from '../Buffer';
 import * as Browser from '../shared/utils/Browser';
-import { ITheme, IDisposable, IMarker } from 'xterm';
+import { ITheme, IDisposable, IMarker } from 'atv-xterm';
 
 export class MockTerminal implements ITerminal {
   markers: IMarker[];

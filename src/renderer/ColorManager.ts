@@ -5,7 +5,7 @@
 
 import { IColorManager } from './Types';
 import { IColor, IColorSet } from '../shared/Types';
-import { ITheme } from 'xterm';
+import { ITheme } from 'atv-xterm';
 
 const DEFAULT_FOREGROUND = fromHex('#ffffff');
 const DEFAULT_BACKGROUND = fromHex('#000000');

@@ -5,7 +5,7 @@
 
 import { IRenderer, IRenderDimensions, IColorSet } from '../Types';
 import { ITerminal, CharacterJoinerHandler } from '../../Types';
-import { ITheme } from 'xterm';
+import { ITheme } from 'atv-xterm';
 import { EventEmitter } from '../../EventEmitter';
 import { ColorManager } from '../ColorManager';
 import { RenderDebouncer } from '../../ui/RenderDebouncer';

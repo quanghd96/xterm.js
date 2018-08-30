@@ -3,7 +3,7 @@
  * @license MIT
  */
 
-import { Terminal } from 'xterm';
+import { Terminal } from 'atv-xterm';
 
 // TODO: Don't rely on this private API
 export interface ITerminalCore {

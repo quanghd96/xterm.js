@@ -13,7 +13,7 @@ import { LinkRenderLayer } from './LinkRenderLayer';
 import { EventEmitter } from '../EventEmitter';
 import { RenderDebouncer } from '../ui/RenderDebouncer';
 import { ScreenDprMonitor } from '../ui/ScreenDprMonitor';
-import { ITheme } from 'xterm';
+import { ITheme } from 'atv-xterm';
 import { CharacterJoinerRegistry } from '../renderer/CharacterJoinerRegistry';
 
 export class Renderer extends EventEmitter implements IRenderer {

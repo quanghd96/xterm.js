@@ -1,5 +1,5 @@
 import { ITerminal } from '../Types';
-import { IDisposable } from 'xterm';
+import { IDisposable } from 'atv-xterm';
 
 /**
  * Debounces calls to render terminal rows using animation frames.

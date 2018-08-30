@@ -46,7 +46,7 @@ import { DEFAULT_ANSI_COLORS } from './renderer/ColorManager';
 import { MouseZoneManager } from './ui/MouseZoneManager';
 import { AccessibilityManager } from './AccessibilityManager';
 import { ScreenDprMonitor } from './ui/ScreenDprMonitor';
-import { ITheme, IMarker, IDisposable } from 'xterm';
+import { ITheme, IMarker, IDisposable } from 'atv-xterm';
 import { removeTerminalFromCache } from './renderer/atlas/CharAtlasCache';
 import { DomRenderer } from './renderer/dom/DomRenderer';
 import { IKeyboardEvent } from './common/Types';
@@ -78,7 +78,7 @@ const DEFAULT_OPTIONS: ITerminalOptions = {
   cols: 80,
   rows: 24,
   convertEol: false,
-  termName: 'xterm',
+  termName: 'atv-xterm',
   cursorBlink: false,
   cursorStyle: 'block',
   bellSound: DEFAULT_BELL_SOUND,
@@ -642,7 +642,7 @@ export class Terminal extends EventEmitter implements ITerminal, IDisposable, II
     this.element = this._document.createElement('div');
     this.element.dir = 'ltr';   // xterm.css assumes LTR
     this.element.classList.add('terminal');
-    this.element.classList.add('xterm');
+    this.element.classList.add('atv-xterm');
     this.element.setAttribute('tabindex', '0');
     this._parent.appendChild(this.element);
 

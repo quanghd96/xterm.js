@@ -3,7 +3,7 @@
  * @license MIT
  */
 
-import { Terminal } from 'xterm';
+import { Terminal } from 'atv-xterm';
 
 export interface ITerminalCore {
   buffer: any;

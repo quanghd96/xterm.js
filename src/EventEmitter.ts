@@ -4,7 +4,7 @@
  */
 
 import { XtermListener } from './Types';
-import { IEventEmitter, IDisposable } from 'xterm';
+import { IEventEmitter, IDisposable } from 'atv-xterm';
 import { Disposable } from './common/Lifecycle';
 
 export class EventEmitter extends Disposable implements IEventEmitter, IDisposable {

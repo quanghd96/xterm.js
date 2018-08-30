@@ -4,7 +4,7 @@
 
 /// <reference path="../../typings/xterm.d.ts" />
 
-import { Terminal } from 'xterm';
+import { Terminal } from 'atv-xterm';
 
 namespace constructor {
   {

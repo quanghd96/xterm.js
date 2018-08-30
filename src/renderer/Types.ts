@@ -4,7 +4,7 @@
  */
 
 import { ITerminal, CharacterJoinerHandler } from '../Types';
-import { IEventEmitter, ITheme, IDisposable } from 'xterm';
+import { IEventEmitter, ITheme, IDisposable } from 'atv-xterm';
 import { IColorSet } from '../shared/Types';
 
 /**
